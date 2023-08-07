@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "body-parser": "^1.20.2",
+    "country-state-city": "^3.1.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "react-alert": "^7.0.3",
+    "react-alert-template-basic": "^1.0.2",
+    "react-responsive-carousel": "^3.2.23",
+    "stripe": "^12.16.0",
+    "twilio": "^4.14.1",
+    "validator": "^13.9.0"
+  },
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
